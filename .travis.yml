@@ -1,0 +1,15 @@
+language: python
+dist: xenial
+cache: pip
+python:
+  - 3.7
+before_install:
+  - python$PY -m pip install --upgrade pip setuptools wheel
+install:
+   # hotfix: ray 0.8.0 causes the jobs to not be properly executed on travis
+   # (but it works on other machines)
+  - pip install ray==0.7.6
+  - pip install black mypy flake8
+script:
+  - bash code_checks.sh
+  - python setup.py test
