@@ -1,6 +1,6 @@
 # Learning What To Do by Simulating the Past
 
-This repository contains code that implements the _Deep Reward Learning by Simulating the Past (Deep RSLP)_ algorithm introduced in the paper ["Learning What To Do by Simulating the Past"](https://openreview.net/pdf?id=kBVJ2NtiY-). This code is provided as is, and will not be maintained. Here we describe how to reproduce the experimental results reported in the paper. You can find video of policies trained with Deep RLSP [here](https://sites.google.com/view/deep-rlsp).
+This repository contains code that implements the _Deep Reward Learning by Simulating the Past (Deep RSLP)_ algorithm introduced in the paper ["Learning What To Do by Simulating the Past"](https://arxiv.org/abs/2104.03946). This code is provided as is, and will not be maintained. Here we describe how to reproduce the experimental results reported in the paper. You can find video of policies trained with Deep RLSP [here](https://sites.google.com/view/deep-rlsp).
 
 ### Citation
 
